@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
-    "install": "babel src --loose --out-dir lib",
+    "install": "",
     "start": "webpack --watch",
     "prepublish": "npm run clean && npm run compile",
     "test": "mocha test/setup.js test/spec/*.js"
